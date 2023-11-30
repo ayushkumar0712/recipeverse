@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+
+ .heading h1{
+    background-color: #E97777;
+    width: 100%;
+    text-align: center;
+    color: #F9F5F6;
+    font-size: 48px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    padding-top: 25rem;
+    padding-bottom: 5rem;
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/12/12/15/reasons-2942288_1280.jpg");
+    opacity: 1;
+    filter: brightness(63%);
+}
+
+.search-bar{
+    margin: 1rem 0;
+    width: 400px;
+    height: 40px;
+     background-color: coral;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+
+.main{
+    width: 80%;
+     margin: 0 auto;
+     text-align: center;
+     
+}
+
+.container{
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+
+.card{
+     width: 180px;
+     border-radius: 1rem;
+     border-radius: 1rem;
+     cursor: pointer;
+     padding: 5px;
+}
+
+img{
+    width: 100%;
+    box-shadow: 0 5px 5px rgba(0, 0,0, 0.5);
+    cursor: pointer;
+}
+
+.card h3{
+    color: black;
+    font: 18px;
+}
+.card img:hover{
+    transition: 0.3s;
+    transform: translate3d(0.15rem,0.15rem,-0.005rem);
+}
+
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}
+
+.numBox{
+    width: 50px;
+    height: 40px;
+    background-color: #FFD6A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+ .numBox:hover{
+    filter: brightness(110%);
+    color: orangered;
+ }
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.upper .inner-content:hover{
+    transform:translate3d(0.15rem,0.15rem,-0.005rem);
+}
+.content img{
+    width: 40%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.content .inner-content{
+   
+    width: 40%;
+     position: relative;
+     margin-top: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0,0, 0.5);
+}
+
+.recipe-details{
+    width:  75%;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients, .instructions{
+  flex-basis: 50%;
+  text-align: justify;
+  
+}
+.instructions{
+     word-spacing: 10px;
+}
+
+.ingredients h4{
+    margin-top: 0.76rem;
+    font-weight: bold;
+}
+
+iframe{
+    height: 415px;
+    width: 100%;
+}
+
+.video{
+    width: 70%;
+    margin: 3rem auto;
+}
